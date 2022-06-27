@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.header {
+    height: 7vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    
+}
+.nav-bar {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+}
+.nav-bar li {
+    list-style: none;
+}
+.nav-bar li button {
+    border: none;
+    height: 35px;
+    width: 150px;
+    border-radius: 1%;
+    background-color: white;
+    font-weight: 600;
+    transition: all 150ms ease-out;
+}
+.nav-bar li button:hover {
+    opacity: .89;
+    background-color: rgb(86, 85, 85);
+    color: white;
+}
